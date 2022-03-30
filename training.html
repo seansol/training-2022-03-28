@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Sean" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="form">
+        <h1 class="form-head">Sign Up</h1>
+
+        <div class="first-row">
+            <div class="field-wrap" id="first-name">
+                <label for="first-name"></label>
+                <input type="text" placeholder="First Name" name="first-name" required />
+            </div>
+            <div class="field-wrap" id="last-name">
+                <label for="last-name"></label>
+                <input type="text" placeholder="Last Name" name="last-name" required />
+            </div>
+        </div>
+
+        <div id="phone">
+            <label for="phone"></label>
+            <input type="number" placeholder="Mobile No." name="phone" required />
+        </div>
+
+        <div id="email">
+            <label for="email"></label>
+            <input type="email" placeholder="Email Address" name="email" required />
+        </div>
+
+        <div class="last-row">
+            <div class="psw">
+                <label for="psw"></label>
+                <input type="password" placeholder="Password" name="password" required />
+            </div>
+            <div class="psw-repeat">
+                <label for="psw-repeat"></label>
+                <input type="password" placeholder="Confirm Password" name="password-repeat" required />
+            </div>
+        </div>
+
+        <div class="check-box">
+            <label>
+                <input type="checkbox" name="remember" style="margin-bottom:15px">
+                <p style="font-size: small; display: inline-block;"><strong>I Agree</strong></p>
+            </label>
+            <p id="check-description">By clicking 
+                <svg id="svg-register" width="50" height="18" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                     <title>Layer 1</title>
+                     <text stroke="null" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_2" y="218.01852" x="237.4656" fill="#ffffff">Register</text>
+                     <rect stroke="null" x="-0.47254" rx="5" id="svg_1" height="15.55219" width="51.23076" y="1.09341" fill="#1a70c0"/>
+                     <text stroke="null" transform="matrix(0.366176 0 0 0.366176 -25.398 -6.50583)" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_3" y="49.52679" x="98.90367" fill="#ffffff">Register</text>
+                    </g>
+                   
+                </svg>
+                , you agree to the
+                <a href="#">Terms and Conditions</a> set out by this site, including
+                our Cookie Use.
+            </p>
+        </div>
+
+        <div class="clearfix">
+            <button type="Register" class="registerbtn">Register</button>
+            <button type="submit" class="signinbtn">Sign In</button>
+        </div>
+    </div>
+    </div>
+
+    <footer></footer>
+</body>
+
+</html>
